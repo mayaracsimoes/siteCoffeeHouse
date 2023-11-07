@@ -10,7 +10,7 @@ body {
     height: auto;
     position: fixed;
     top: 19px;
-    left: 1380px;
+    left: 78%;
     z-index: 1;
 }
 
@@ -19,13 +19,13 @@ body {
     height: auto;
     position: fixed;
     top: 19px;
-    left: 1600px;
+    left: 88%;
     z-index: 1;
 }
 
 .cafe {
     top: 0;
-    right: 0;
+    left: 39%;
     width: 1000px;
     height: 1000px;
     position: fixed;
@@ -44,7 +44,7 @@ body {
 
 .descricao {
     top: 0;
-    right: 500px;
+    right: 29%;
     width: 1190px;
     height: 1000px;
     position: fixed;

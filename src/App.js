@@ -1,12 +1,12 @@
 import React from "react";
-import "./styles.css"; // Importe seu arquivo CSS de estilos, se houver.
-import Header from "./components/Components";
+import "./styles.css";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <Header />
+      <header className="App-Home">
+        <Home />
       </header>
     </div>
   );
