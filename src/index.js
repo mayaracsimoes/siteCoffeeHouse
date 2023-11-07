@@ -1,11 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App"; // Importe o componente principal (substitua 'App' pelo nome do seu componente principal)
-import "./styles.css"; // Importe estilos CSS, se aplicável
-// import Header from "./header";
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
-ReactDOM.render(
-	<App />,
-
-	document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
